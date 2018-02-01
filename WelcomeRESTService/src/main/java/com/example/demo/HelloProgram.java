@@ -10,6 +10,7 @@ public class HelloProgram {
 	@RequestMapping("/welcome")
 	public @ResponseBody String getMessage()
 	{
+		//returns the message
 		return "Hello Spring boot using REST Service";
 	}
 }
